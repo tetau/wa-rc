@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import "../config/_base_setting";
+
+/*-----------------------------------------------
+ __layout
+-----------------------------------------------*/
+
+.dnon {display: none;}
+
+.l_row {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    &.mx_1440 {
+        max-width: 1440px;
+    }
+    &.mx_1366 {
+        max-width: 1366px;
+    }
+    &.mx_1200 {
+        max-width: 1200px;
+    }
+    &.mx_1024 {
+        max-width: 1024px;
+    }
+    &.mx_1100 {
+        max-width: 1100px;
+    }
+    &.pd_side8 {
+        padding: 0 8%;
+    }
+    &.pd_side5 {
+        padding: 0 5%;
+    }
+    &.pd_side3 {
+        padding: 0 3%;
+    }
+}
+
+.wrapper {
+    position: relative;
+}
